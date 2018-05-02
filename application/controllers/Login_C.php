@@ -5,6 +5,7 @@ class Login_C extends CI_Controller{
         $this->load->model('Akun_M');
     }
     public function index(){
+		$this->load->view('header');
         $this->load->view('loginpage');
     }
 	public function cek_login(){
@@ -26,4 +27,5 @@ class Login_C extends CI_Controller{
 
         }
     }
+
 }
