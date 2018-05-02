@@ -9,10 +9,10 @@ class Barang_M extends CI_Model{
 		return $query->result();
 	}
 	public function get_barang($data){
-		$this->db->where('nama',$data);
+		$this->db->where('idbarang',$data);
 		$barang = $this->db->get('barang');
 		if($barang->num_rows()==1){
-			return $result->row(0);
+			return $barang->row(0);
 		}else{
 			return False;
 		}

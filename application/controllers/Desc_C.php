@@ -8,7 +8,8 @@ class Desc_C extends CI_Controller{
         $this->load->library('javascript/jquery');
     }
     public function index(){
-		$barang = $this->Barang_M->get_barang($ref['ref']);
-		$this->load->view('descriptionpage',$barang);
+		$barang = $this->Barang_M->get_barang($this->input->get('idproduk', TRUE));
+		$data = array('barang'=>$barang);
+		$this->load->view('descriptionpage',$data);
     }
 }
