@@ -18,8 +18,5 @@
 				}else{
 					return FALSE;
 				}
-			}
-			
-		
-		
+			}	
 }

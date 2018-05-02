@@ -16,11 +16,9 @@
 			else{
 				$this->session->set_flashdata('alert', 'sukses_daftar');
            			 //isi dengan flash data disini
-            	redirect('Login/index');
+            	redirect('Login_C/index');
 			}
-			
 		}
-
 		public function login_akun($data){
 			$this->db->where('email',$data['email']);
 			$this->db->where('pass',$data['password']);
@@ -32,5 +30,4 @@
 				return false;
 			}
 		}
-		
 }

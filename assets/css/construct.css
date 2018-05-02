@@ -125,13 +125,3 @@ footer {
 #quantityNum {
     color: #eab245;
 }
-
-.oi-heart{
-    transform: scale(0.7);
-    color: rgb(40,40,40);
-    cursor: pointer;
-}
-
-.heart-clicked{
-    color: #ff3a28;
-}

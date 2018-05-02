@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\application",
-    "\\application\\controllers",
-    "\\application\\views\\html"
+    "\\application\\cache",
+    "\\application\\views"
   ],
-  "SelectedNode": "\\application\\third_party",
+  "SelectedNode": "\\application\\views\\billingpage1.php",
   "PreviewInSolutionExplorer": false
 }
