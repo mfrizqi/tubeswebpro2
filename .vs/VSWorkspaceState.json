@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\application",
-    "\\application\\cache",
-    "\\application\\views"
+    "\\application\\views",
+    "\\application\\views\\css",
+    "\\assets"
   ],
-  "SelectedNode": "\\application\\views\\billingpage1.php",
+  "SelectedNode": "\\application\\views\\css\\description.css",
   "PreviewInSolutionExplorer": false
 }
